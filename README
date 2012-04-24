@@ -1,1 +1,6 @@
-test
+Une base de donnée avec des bons plans selon la ville, l'âge et le sexe.
+Dans cette base il y a deux catégories pour l'âge, jeune et moins jeune, représenté respectivement par 1 et 2. Lorsque le formulaire est traité il sépare donc ces deux categories.
+Pour le sexe de la personne, 1 représente la femme, 2 l'homme et 3 représente les activités mixtes.
+
+Lorsque l'on remplis le formulaire, la personne est enregistré dans la table 'personnes' avec son nom, prénom, sa date de naissance son genre et son email.
+L'utilisateur reçois un email en fonction des bons plans proposé dans sa ville, selon son âge et son sexe.
