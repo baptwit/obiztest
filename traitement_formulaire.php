@@ -8,7 +8,7 @@
 
     <body>
 
-    	<p>Merci pour votre inscription, nous vous avons envoyé un e-mail pour votre inscription avec des bons plans proche de chez vous.<p>
+    	<p>Merci pour votre inscription, nous vous avons envoyé un e-mail pour votre inscription avec des bons plans proches de chez vous.<p>
 		<p>pour revenir au formulaire <a href="index.html">cliquez ici</a></p>
 
 
@@ -43,7 +43,7 @@
 		    $reponse = $bdd->query('SELECT * FROM promos WHERE VILLES="'.$ville.'" AND AGE ="'.$age.'" AND (SEXE = "'.$sexe.'" OR SEXE = "3")');
 			
 			$message = 'Bonjour !'."\r\n";
-			$message.= "<p>Merci pour votre inscription, nous vous proposons ces bons plans proche de chez vous, profitez en !</p>";
+			$message.= "<p>Merci pour votre inscription, nous vous proposons ces bons plans proches de chez vous, profitez-en !</p>";
 			$to      = $_POST['email'];
 			$subject = 'inscription réussie';
 			$headers = 'MIME-Version: 1.0' . "\r\n";
