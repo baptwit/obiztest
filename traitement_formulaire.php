@@ -36,7 +36,7 @@
 				'prenom' => $_POST['prenom'],
 				'datenaissance' => $date_bdd,
 				'ville' => $_POST['ville'],
-				'sexe' => $_POST['genre'],
+				'sexe' => $sexe,
 				'email' => $_POST['email']
 				));
 
